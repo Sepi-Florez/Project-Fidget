@@ -12,7 +12,7 @@ public class Spin : MonoBehaviour {
     void Update() {
         if (Input.GetButtonDown("Jump")) {
             currentLerpTime = 0;
-            force += 10;
+            force += 3;
 
         }
         currentLerpTime += Time.deltaTime;
